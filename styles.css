@@ -1,0 +1,223 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    
+}
+:root{
+    --background-color: #fff;
+    --text-color: #999;
+    --title-color: #fff;
+}
+
+.dark-mode{
+    --background-color: #000;
+    --text-color: #555;
+    --title-color: #000 ;
+}
+/* header */
+
+header{
+    
+    background-color: #ffd6ff;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+header nav{
+    display: flex;
+    float: inline-end;  
+    border: none;
+    margin-right: 100px;
+    padding: 17px;   
+}
+
+
+
+
+header nav a{
+    margin-left: 20px; /* espace entre les elements */
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ffd6ff;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    border-bottom-color: black ;
+}
+
+
+.trigger-btn{
+    background: #ff4848;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.trigger-btn i {
+    width: 35px;
+    margin-left: 10px;
+    
+}
+
+/* home */
+
+ .container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    width: 50%;
+    margin-left: 120px;
+    padding: 40px;
+   
+} 
+
+.imagehome{
+    width: 200px;
+	height: 350px;
+    margin-left: 700px;
+    padding: 20px;
+    margin-top: -350px; 
+    
+    /* border-radius: 0% 30% 0% 40% / 0% 30% 30% 40%; */
+ }
+
+
+
+
+/* A propo */
+  h1{
+    text-align: center;
+    font-size: 33px;
+}
+
+h3{
+    text-align: center; 
+}
+
+.contenaire2{
+    display: flex;
+}
+
+
+.text2{
+    float: left;
+    margin-top: 90px;
+    margin-left: 120px;
+    border: none;
+    width: 640px;
+    font-size: 18px;
+    line-height : 1.5;
+    padding: 10px;
+}
+
+img{
+    width: 400px;
+	height: 400px;
+    padding: 20px;
+    margin-top: 40px;
+    border: none;
+    margin-left: 60px;
+
+}
+
+.container {
+    display: flex;
+    
+}
+
+
+.element {
+    margin: auto;
+    border: none;
+    
+}
+
+/* Competence */
+
+.imagelogo{
+    display: flex;
+    padding-left: -50px;
+}
+
+.logo{
+    
+    width: 250px;
+	height: 200px;
+    
+}
+
+/* experience */
+
+.vertical-line{
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 800px ;
+    display: flex;
+    margin: 0 620px;
+    
+}
+
+.contenerExper{
+    display: grid;
+    border: none;
+    text-align: center;
+    
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 650px;
+    border: none;
+    width: 150px;
+    
+}
+
+
+p{
+    background-color: sandybrown;
+    width: 920px;
+    height: 300px;
+    margin-left: 170px;
+    overflow: scroll;
+}
+
+footer {
+    background-color: #ffd6ff;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+ 
+@media screen and (max-width: 1200px) {
+    /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+    header{
+    
+       display: none;
+        
+    }
+    a{
+       display: none;
+    }
+
+    .profile{
+        border: solid;
+    }
+   
+
+}

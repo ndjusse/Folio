@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+           
+                <a href="#home"> Home</a>
+                <a href="#apropos"> A propos</a>
+                <a href="#competence">Competence</a>
+                <a href="#experience"> Experience</a>
+                <a href="#realisation">  Realisation</a>
+                <a href="#contact">Contact</a>
+
+                <div class="trigger-btn" id="btn">Mode
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+                
+                
+        </nav>
+
+        <script>
+            let btn = document.getElementById("btn");
+            btn.onclick = function(){
+                document.body.classList.toggle("dark-mode");
+            }
+        </script>
+    </header>
+
+    <main>
+        <!-- <section id="home">
+            <div class="contenaire1" >
+                <div >
+                    <img class="imagehome" src="pages/home/image/gabi.png.gif" alt="">
+                </div>
+                <div class="text1">
+                  <div> <h2>Hi ,  je suis Nathalie</h2></div><br>
+                  <div> Développeuse frontend</div><br>
+                   <div>Je suis passionné par la création d'interfaces utilisateur qui soient à la fois belles et fonctionnelles. </div>
+                   <div>J'aime utiliser mes compétences techniques pour 
+                    créer des expériences utilisateur qui soient à la fois engageantes et agréables.</div> <br><br>
+                   <button style="padding: 15px; border-radius: 10px; background-color: #06d3fc;border-color:#06d3fc ; ">  
+                      Me contacter
+
+                    </button> 
+                </div>
+            </div>
+        </section><br><br><br> -->
+        <section id="home">
+            <div class="container1">
+                <div class="text1">
+                   <div> <h2>Hi ,  je suis Nathalie</h2></div><br>
+                  <div> Développeuse frontend</div><br>
+                   <div>Je suis passionné par la création d'interfaces utilisateur qui soient à la fois belles et fonctionnelles. </div>
+                   <div>J'aime utiliser mes compétences techniques pour 
+                    créer des expériences utilisateur qui soient à la fois engageantes et agréables.</div> <br><br>
+                   <button style="padding: 15px; border-radius: 10px; background-color: #06d3fc;border-color:#06d3fc ; ">  
+                      Me contacter
+
+                    </button> 
+                </div>
+                <div >
+                    <img class="imagehome" src="pages/home/image/gabi.png.gif" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- zone a propos -->
+
+        <section id="apropos">
+            <h1 > A Propos de moi</h1>
+             <h3>Qui suis-je?</h3>
+            <div class="contenaire2" contenaire>
+
+                <div class="imageh2">
+                    <img src="pages/home/image/MOI.jpg" alt="">
+                </div>
+
+                <div class="text2">
+                  <div> Je suis une développeuse frontend passionnée par la beauté et la mode, 
+                      et je travaille dans ce domaine depuis plus d'un an.
+                   </div>
+                    <div> 
+                      Mon amour de ces domaines me permet de créer des sites et applications web attrayants et fonctionnels,
+                       qui répondent aux besoins des utilisateurs.
+                    </div> <br><br>
+
+                   <div class="container">
+                      <div class="element element1">
+                          <div style="text-align: center; font-weight: bold; font-size: 20px;">12+</div><br>
+                           <div>Mois d'expériences</div>
+                      </div>
+
+                      <div class="element element2">
+                        <div  style="text-align: center; font-weight: bold; font-size: 20px;">2+</div><br>
+                        <div> Projets réalisés</div>
+                      </div>
+
+                      <div class="element element3">
+                        <div  style="text-align: center; font-weight: bold; font-size: 20px;">2+</div><br>
+                        <div> Langages maîtrisés</div>
+                      </div>
+                   </div><br><br><br><br><br><br>
+
+                   <button style="padding: 15px; border-radius: 10px; 
+                            background-color: #06d3fc;border-color:#06d3fc ; ">  
+                      MON CV
+                    </button> 
+                </div>  
+    
+               
+            </div>
+        </section>
+
+
+      <!-- zone competences -->
+
+        <section id="competence">
+            <h1 > Mes competences</h1>
+            <div class="contenaire2" contenaire>
+            
+                <div class="imagelogo">
+                  <img class="logo" src="pages/home/image/js.png" alt="">
+                  <img  class="logo"  src="pages/home/image/react.png" alt="">
+                  <img class="logo"  src="pages/home/image/mysql.jpg" alt="">
+                  <img  class="logo"  src="pages/home/image/git.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+ <!-- zone experiences -->
+        <section id="experience">
+             <h1>Experiences</h1> 
+             <h3>Mon expérience professionnelle & scolaire</h3>  
+             
+            <div class="contenerExper" >
+                <span class="vertical-line"></span>
+                
+                <div class="grid-item"  style="margin-left: 450px; margin-top: -800px;">
+                    <h2>probatoire <i class="fa-solid fa-circle"></i></h2>
+                    <h4>lycee bilingue </h4>
+                    <h4><i class="fa-solid fa-star"></i> 2020-2021</h4>
+                </div><br>
+
+               <div class="grid-item" style="margin-top: -650px;">
+                  <h2><i class="fa-solid fa-circle"> BEPC</i> </h2>
+                  <h4>lycee bilingue </h4>
+                  <h4><i class="fa-solid fa-star"></i> 2020-2021</h4>
+               </div><br>
+
+               <div class="grid-item" style="margin-left: 450px; margin-top: -450px;">
+                 <h2>Bts <i class="fa-solid fa-circle"></i> </h2>
+                 <h4>lycee bilingue </h4>
+                 <h4><i class="fa-solid fa-star"></i> 2020-2021</h4>
+                </div><br>
+
+                <div class="grid-item"  style="margin-top: -250px;">
+                    <h2>  <i class="fa-solid fa-circle" style="margin-right: 70px;">
+                        LICENCE</i>
+                    </h2>
+                    <h4>lycee bilingue </h4>
+                    <h4><i class="fa-solid fa-star"></i> 2020-2021</h4>
+                </div>
+
+               
+            </div>
+        </section>
+
+        <!-- zone realisations -->
+         
+        <section id="realisation">
+            <h1>Realisations</h1> 
+            <h3>Quelques projets réalisés</h3> 
+            <p>
+                <img class="logo" src="pages/home/image/js.png" alt="">
+                <img  class="logo"  src="pages/home/image/react.png" alt="">
+                <img class="logo"  src="pages/home/image/mysql.jpg" alt="">
+                <img  class="logo"  src="pages/home/image/git.png" alt="">
+            </p>
+        </section><br><br>
+
+        <section id="realisation">
+             
+            <h3>Quelques projets réalisés en groupe</h3> 
+            <p>
+                <img class="logo" src="pages/home/image/js.png" alt="">
+                <img  class="logo"  src="pages/home/image/react.png" alt="">
+                <img class="logo"  src="pages/home/image/mysql.jpg" alt="">
+                <img  class="logo"  src="pages/home/image/git.png" alt="">
+            </p>
+        </section>
+
+<!-- zone contact -->
+        <section id="contact">
+            <h1>Me Contacter</h1> 
+            <h3>Envoyez moi un mail et je vous répondrai</h3> 
+            <div>
+                email<i class="fa-solid fa-star"></i><br>
+                email<i class="fa-solid fa-star"></i>
+                email<i class="fa-solid fa-star"></i><br>
+                email<i class="fa-solid fa-star"></i>
+                email<i class="fa-solid fa-star"></i><br>
+                email<i class="fa-solid fa-star"></i>
+                email<i class="fa-solid fa-star"></i><br>
+                email<i class="fa-solid fa-star"></i>
+            </div>
+        </section>
+    </main> <br><br><br>
+
+    <footer>
+        <div> NDJUSSE Nathalie</div>
+        <div>Développeuse frontend</div>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </footer>
+    
+</body>
+</html>
